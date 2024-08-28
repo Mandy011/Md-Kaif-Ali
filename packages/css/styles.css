@@ -328,6 +328,7 @@ img {
 
 .home__description {
   margin-bottom: var(--mb-2);
+ 
 }
 
 .home__scroll {
@@ -523,6 +524,9 @@ img {
 .skills__css {
   width: 80%;
 }
+.skills__react {
+  width: 50%;
+}
 
 .skills__js {
   width: 60%;
@@ -655,6 +659,7 @@ img {
 .services__container {
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
+  
 }
 
 .services__content {
@@ -664,8 +669,8 @@ img {
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: 0.3s;
+  
 }
-
 .services__content:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -750,6 +755,14 @@ img {
   visibility: visible;
 }
 
+
+.project-para{
+  font-size: x-small;
+  padding-right: 50px;
+  line-height: 1.2;
+  word-spacing: 0.1px;
+  text-align: justify;
+}
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   overflow: initial;
